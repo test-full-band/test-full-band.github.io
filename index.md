@@ -19,7 +19,8 @@ All patterns are automatically validated after encoding by decoding them and com
 
 ## In Development for the next release
 
-Just a small announce of what already can be built from 
+Just a small announce of what already can be built from sources on our GitHub
+[project](https://github.com/testing-av/testing-video) page.
 
 Modern picture formats:
   * H.264 (AVC) and H.265 (HEVC)
