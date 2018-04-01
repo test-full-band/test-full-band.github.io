@@ -45,6 +45,7 @@ in a playback chain.
 
 8 bit YUV to 10 bit RGB:
 ![10bit](images/vtest/Quants.png)
+
 The above is the example of rendering of the pattern to
 higher-resolution screen with truncation at the last step.
 If you are really picky you may see some inhomogeneities here, but they
@@ -53,6 +54,7 @@ video or photographic content.
 
 8 bit YUV to 8 bit RGB dithered:
 ![8bit](images/vtest/Quants8tpdf.png)
+
 Here is another example of rendering the pattern to the RGB of the
 same bitdepth, but this time dithering is used before rounding values
 to the target RGB space. You may see that this picture is very similar
@@ -79,6 +81,7 @@ perfect math in the video chain.
 
 8 bit YUV to 8 bit RGB truncated (satisfying):
 ![8bit](images/vtest/Quants8bit.png)
+
 In the above we have just rendered it to RGB and rounded it to 8 bit
 without dither.
 When comparing it to two previous exapmles you immediately notice
