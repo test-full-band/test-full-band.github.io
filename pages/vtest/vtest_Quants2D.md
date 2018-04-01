@@ -43,7 +43,7 @@ Any grouping or appearance of visually sticking zones of cells or
 structures larger than one cell is a signal of visible non-linearities
 in a playback chain.
 
-8 bit YUV to 10 bit RGB:
+##### 8 bit YUV to 10 bit RGB
 ![10bit](images/vtest/Quants.png)
 
 The above is the example of rendering of the pattern to
@@ -52,7 +52,7 @@ If you are really picky you may see some inhomogeneities here, but they
 are very minor and not a subject on a real display with a real
 video or photographic content.
 
-8 bit YUV to 8 bit RGB dithered:
+##### 8 bit YUV to 8 bit RGB dithered
 ![8bit](images/vtest/Quants8tpdf.png)
 
 Here is another example of rendering the pattern to the RGB of the
@@ -79,11 +79,11 @@ pattern.
 Le't now review how it may look if media player of TV doesn't do
 perfect math in the video chain.
 
-8 bit YUV to 8 bit RGB truncated (satisfying):
+##### 8 bit YUV to 8 bit RGB truncated (satisfying)
 ![8bit](images/vtest/Quants8bit.png)
 
-In the above we have just rendered it to RGB and rounded it to 8 bit
-without dither.
+In the above example we have just rendered it to RGB and rounded it
+to 8 bit without dither.
 When comparing it to two previous exapmles you immediately notice
 something is not well with it.
 So, even when the target bitdepth is equal to the source color shift
@@ -94,19 +94,20 @@ And while there is still separate color in each cell and they do not
 blend one into another it may still introduce slight posterization
 when rendering even perfectly coded gradient.
 
-So, while this is not 'end of the world' and the result might be
-quite tolerable this is already not a videophile quality.
+While this is not 'end of the world' and the result might be
+quite tolerable this is already not a videophile quality. Although
+you will rarely see it better on a real device.
 
 So, let's see what happens when even more resolution is lost due to
-computations...
+(improper) computations on the example of further bitdepth reduction...
 
-8 bit YUV to 7 bit RGB truncated (bad):
+##### 8 bit YUV to 7 bit RGB truncated (bad):
 ![7bit](images/vtest/Quants7bit.png)
 
-8 bit YUV to 6 bit RGB truncated (worse):
+##### 8 bit YUV to 6 bit RGB truncated (worse):
 ![6bit](images/vtest/Quants6bit.png)
 
-8 bit YUV to 5 bit RGB truncated (terrible):
+##### 8 bit YUV to 5 bit RGB truncated (terrible):
 ![5bit](images/vtest/Quants5bit.png)
 
 So, you see here is already cells blending one into another into single
