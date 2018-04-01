@@ -117,7 +117,8 @@ even worse things than presented on the last pattern above are
 happening on a real consumer television sets, even some 'high-end' TVs.
 
 Don't believe this can be true?
-This is our HRD10 Quants2D pattern as displayed on LG OLED 77G7V:
+This is our HRD10 version of the Quants2D pattern as displayed on
+an LG OLED77G7V:
 
 ![LGOLED77G7V](images/vtest/QuantsLGOLED77G7V.jpg)
 
