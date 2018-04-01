@@ -116,7 +116,18 @@ This is not nearly acceptable on any video reproduction device, but
 even worse things than presented on the last pattern above are
 happening on a real consumer television sets, even some 'high-end' TVs.
 
-We really believe that adding such test pattern to a set of
-procedures already used by TV reviewers will let us get better TVs.
+Don't believe this can be true?
+This is our HRD10 Quants2D pattern as displayed on LG OLED 77G7V:
+
+![LGOLED77G7V](images/vtest/QuantsLGOLED77G7V.jpg)
+
+Epic fail to say the least! 2016 LG OLEDs expose similar performance
+in 10 bit modes.
+There is no surprise there are so many complaints about color banding
+and posterization on these sets.
+
+We really believe that adding such test pattern to a set of evaluation
+procedures already used by TV reviewers will let us get better TVs in
+the end.
 
 {% include links.html %}
