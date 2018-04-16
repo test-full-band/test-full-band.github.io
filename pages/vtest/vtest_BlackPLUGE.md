@@ -32,11 +32,11 @@ Let's see then examples of misadjustment.
 ##### Too dark
 ![10bit](images/vtest/BlackPLUGEdark.png)
 
-If you see something like this the above is too dark and you need to increase brightness.
+If you see something like the above is too dark and you need to increase brightness.
 
 ##### Too bright
 ![10bit](images/vtest/BlackPLUGEbright.png)
 
-If you see something like this the above is too bright and you need to decrease brightness.
+If you see something like the above is too bright and you need to decrease brightness.
 
 {% include links.html %}
