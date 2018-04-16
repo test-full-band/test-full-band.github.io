@@ -31,11 +31,8 @@ At the top it is displayed according to OETF (Opto-electronic transfer character
 This means 'camera' light 'as captured'.
 Rec. BT.709 and Rec. BT.2020 transfer functions are those 'camera' or encoding transfer functions.
 But it is not supposed for the display to use the direct inverse of these functions.
-Instead Rec. BT.1888 EOTF (electro-optical transfer function) is recommended for the display.
+Instead Rec. BT.1886 EOTF (electro-optical transfer function) is recommended for the display.
 So we display also how it should be on the display at the bottom. For encodes that are using display EOTF instead as a transfer function (such as HDR10 / SMPTE ST.2084 PQ) only value at bottom of the screen is displayed.
-
-
-## The reference
 
 ##### ColorChecker "C2 - moderate red" 10% window patch example
 ![Calibrate](images/vtest/Calibrate.png)

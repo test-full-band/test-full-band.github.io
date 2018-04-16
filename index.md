@@ -44,6 +44,6 @@ All patterns are automatically validated after encoding by decoding them and com
 
   * ICtCp test patterns
   * Injecting ST.2094-10 metadata allowing to test Dolby Vision systems
-  * Suggest your wishes via [feature request](https://github.com/testing-av/testing-video/issues) or better contribute to our GitHub project via pull requests.
+  * Suggest your wishes via [feature request](https://github.com/testing-av/testing-video/issues) or even better contribute to our GitHub project via pull requests.
 
 {% include links.html %}
