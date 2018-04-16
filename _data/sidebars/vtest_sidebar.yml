@@ -28,6 +28,10 @@ entries:
       output: web, pdf
       type: homepage
 
+    - title: Calibration patches
+      url: /vtest_Calibrate.html
+      output: web, pdf
+
     - title: Quants2D
       url: /vtest_Quants2D.html
       output: web, pdf

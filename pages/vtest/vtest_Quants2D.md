@@ -8,9 +8,9 @@ folder: vtest
 ---
 
 This test pattern displays two dimensional quantization grid.
-On the horizontal axis there is luma (Y' channel) with 32 evenly spaced
+On the horizontal axis there is luma (Y' channel) with 30 evenly spaced
 steps of 1 LSB (least significant bit).
-On the vertical axis there is chroma (C'b or C'r channel) whit 17 evenly
+On the vertical axis there is chroma (C'b or C'r channel) whit 15 evenly
 spaced steps of the same 1 LSB per step, other chroma channel is fixed
 at its corresponding achromatic value.
 There are markings on edges of the screen that show where the steps are
@@ -44,7 +44,7 @@ structures larger than one cell is a signal of visible non-linearities
 in a playback chain.
 
 ##### 8 bit YUV to 10 bit RGB
-![10bit](images/vtest/Quants.png)
+![10bit](images/vtest/Quants8to10.png)
 
 The above is the example of rendering of the pattern to
 higher-resolution screen with truncation at the last step.
@@ -80,7 +80,7 @@ Le't now review how it may look if media player of TV doesn't do
 perfect math in the video chain.
 
 ##### 8 bit YUV to 8 bit RGB truncated (satisfying)
-![8bit](images/vtest/Quants8bit.png)
+![8bit](images/vtest/Quants8round.png)
 
 In the above example we have just rendered it to RGB and rounded it
 to 8 bit without dither.
@@ -102,13 +102,13 @@ So, let's see what happens when even more resolution is lost due to
 (improper) computations on the example of further bitdepth reduction...
 
 ##### 8 bit YUV to 7 bit RGB truncated (bad):
-![7bit](images/vtest/Quants7bit.png)
+![7bit](images/vtest/Quants7round.png)
 
 ##### 8 bit YUV to 6 bit RGB truncated (worse):
-![6bit](images/vtest/Quants6bit.png)
+![6bit](images/vtest/Quants6round.png)
 
 ##### 8 bit YUV to 5 bit RGB truncated (terrible):
-![5bit](images/vtest/Quants5bit.png)
+![5bit](images/vtest/Quants5round.png)
 
 So, you see here is already cells blending one into another into single
 color groups.
