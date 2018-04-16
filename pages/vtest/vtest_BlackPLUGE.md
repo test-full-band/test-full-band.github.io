@@ -37,6 +37,6 @@ If you see something like the above is too dark and you need to increase brightn
 ##### Too bright
 ![10bit](images/vtest/BlackPLUGEbright.png)
 
-If you see something like the above is too bright and you need to decrease brightness.
+If you see something like the above is too bright and you need to reduce brightness.
 
 {% include links.html %}
