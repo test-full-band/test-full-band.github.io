@@ -28,6 +28,10 @@ entries:
       output: web, pdf
       type: homepage
 
+    - title: Black level (PLUGE)
+      url: /vtest_BlackPLUGE.html
+      output: web, pdf
+
     - title: Calibration patches
       url: /vtest_Calibrate.html
       output: web, pdf

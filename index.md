@@ -22,6 +22,7 @@ You can download latest set of patterns from [releases](https://github.com/testi
 
   * PLUGE pattern for precisely setting black level
   * BT.2111 color bar test pattern for HDR10 and HLG10
+  * Checker board test pattern of different amplitudes
   * Quantization uniformity / local non-linearity detection:
     * 2D Quantization grid
     * 3D Quantization cross pattern (dynamic sweeps)
