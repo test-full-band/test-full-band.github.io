@@ -11,7 +11,7 @@ This pattern is for setting black level.
 At the middle part of the screen there are bars for (from left to right) -4%, 0, -2%, 0, +2%, 0, +4% gray levels.
 
 At the left side of the screen there is fine-grained pattern for the above black.
-It consists of a sequence of (from top to bottom) +2, 0, +1, 0, +3 code points for 8 bit patterns and +4, 0, +2, 0, +6 code points for 10 bit patterns (so in this case it shows three levels below 1% pattern).
+It consists of a sequence of (from top to bottom) +2, 0, +1, 0, +3 code points for 8 bit patterns and +4, 0, +2, 0, +6 code points for 10 bit patterns (so in this case it shows three levels below 1% bar).
 
 At the right side yet again - alternating black and blacker than black levels.
 
@@ -32,11 +32,11 @@ Let's see then examples of misadjustment.
 ##### Too dark
 ![10bit](images/vtest/BlackPLUGEdark.png)
 
-If you see something like the above is too dark and you need to increase brightness.
+If you see something like the above it is too dark and you need to increase brightness.
 
 ##### Too bright
 ![10bit](images/vtest/BlackPLUGEbright.png)
 
-If you see something like the above is too bright and you need to reduce brightness.
+If you see something like the above it is too bright and you need to reduce brightness.
 
 {% include links.html %}
