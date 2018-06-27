@@ -10,7 +10,7 @@ folder: vtest
 This test pattern displays two dimensional quantization grid.
 On the horizontal axis there is luma (Y' channel) with 30 evenly spaced
 steps of 1 LSB (least significant bit).
-On the vertical axis there is chroma (C'b or C'r channel) whit 15 evenly
+On the vertical axis there is chroma (C'b or C'r channel) with 15 evenly
 spaced steps of the same 1 LSB per step, other chroma channel is fixed
 at its corresponding achromatic value.
 There are markings on edges of the screen that show where the steps are
@@ -60,7 +60,7 @@ same bitdepth, but this time dithering is used before rounding values
 to the target RGB space. You may see that this picture is very similar
 to the previous one, and you need a hard look to find the differences.
 What you may find if you are picky is that this picture have even
-smoother distribution of of color per step, but there is slight amount
+smoother distribution of color per step, but there is slight amount
 of noise added.
 We just used plain TPDF dithering to render this picture, it is very
 simple and cheap algorithm and doesn't provide benefits of visually
@@ -68,9 +68,9 @@ reducing the noise of more complex noise-shaping algorithms, but still
 it's presence is very slightly noticeable.
 
 But remember, sample pictures are amplified so is the noise added to
-the picture (efficiently you see it as it your computer screen is only
-6 bit). So, in both examples any visible artifacts are not a problem
-and it may be declared both them represent the reference display
+the picture (efficiently you see it as if your computer screen would
+have only 6 bit). So, in both examples any visible artifacts are not a
+problem and both them can be told as representing the reference display
 behavior and also both can be considered as a perfect rendering of the
 pattern.
 
