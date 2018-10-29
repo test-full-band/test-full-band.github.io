@@ -36,7 +36,7 @@ exclude:
   - .project
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: testing.full.band patterns
+feedback_subject_line: test.full.band patterns
 
 #feedback_email: igorzep@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar

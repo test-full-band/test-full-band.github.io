@@ -1,6 +1,6 @@
 # testing-av.github.io
 
-http://testing.full.band
+http://test.full.band
 
 ## Development environment
 
